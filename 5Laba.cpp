@@ -22,7 +22,7 @@ unsigned int strLen(const char* input) {
     }
     return count;
 }
-bool checkPassword(std::string password) {
+bool checkPassword(string password) {
     if (password.length() < 8 || password.length() > 14) {
         return false;
     }
@@ -84,3 +84,4 @@ int main() {
     }
     return 0;
 }
+
